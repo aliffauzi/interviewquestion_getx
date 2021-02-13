@@ -63,7 +63,7 @@ packages:
       name: chewie_audio
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.1"
+    version: "1.1.2"
   clock:
     dependency: transitive
     description:
@@ -119,7 +119,7 @@ packages:
       name: css_colors
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.2"
+    version: "1.1.0"
   csslib:
     dependency: transitive
     description:
@@ -133,7 +133,7 @@ packages:
       name: cupertino_icons
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.2"
   dotted_border:
     dependency: "direct main"
     description:
@@ -264,7 +264,7 @@ packages:
       name: flutter_svg
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.19.1"
+    version: "0.19.2+1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -281,7 +281,7 @@ packages:
       name: get
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.24.0"
+    version: "3.25.4"
   get_storage:
     dependency: "direct main"
     description:
@@ -365,7 +365,7 @@ packages:
       name: line_icons
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.0"
+    version: "1.3.2"
   logger:
     dependency: "direct main"
     description:
@@ -477,7 +477,7 @@ packages:
       name: pedantic
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.9.2"
+    version: "1.10.0"
   petitparser:
     dependency: transitive
     description:
@@ -491,7 +491,7 @@ packages:
       name: platform
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.2.1"
+    version: "3.0.0"
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -559,7 +559,7 @@ packages:
       name: sqflite
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.3.2+2"
+    version: "1.3.2+3"
   sqflite_common:
     dependency: transitive
     description:
@@ -764,5 +764,5 @@ packages:
     source: hosted
     version: "2.2.1"
 sdks:
-  dart: ">=2.12.0-0.0 <3.0.0"
-  flutter: ">=1.22.2 <2.0.0"
+  dart: ">=2.12.0-29.10.beta <3.0.0"
+  flutter: ">=1.24.0-6.0.pre <2.0.0"

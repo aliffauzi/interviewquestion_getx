@@ -4,37 +4,37 @@ const String appIconImage = 'assets/images/app_icon.png';
 const String profileImage = 'assets/images/user_profile.png';
 
 var tabHomeIcon = LineIcons.home;
-var tabFavouriteIcon = LineIcons.heart_o;
-var tabTechnologyIcon = LineIcons.newspaper_o;
+var tabFavouriteIcon = LineIcons.heart;
+var tabTechnologyIcon = LineIcons.book;
 var tabProfileIcon = LineIcons.user;
 
-var navigationIcon = LineIcons.navicon;
+var navigationIcon = LineIcons.clipboardList;
 var notificationIcon = LineIcons.bell;
 var searchIcon = LineIcons.search;
-var backIcon = LineIcons.arrow_left;
+var backIcon = LineIcons.arrowLeft;
 var passwordVisibleIcon = LineIcons.eye;
-var passwordInVisibleIcon = LineIcons.eye_slash;
+var passwordInVisibleIcon = LineIcons.eyeSlash;
 
-const searchClearIcon = LineIcons.close;
+const searchClearIcon = LineIcons.windowClose;
 const minusIcon = LineIcons.minus;
 const plusIcon = LineIcons.plus;
 var editIcon = LineIcons.edit;
 
-var radioSelectIcon = LineIcons.check_circle;
-var radioUnSelectIcon = LineIcons.check_circle;
+var radioSelectIcon = LineIcons.checkCircleAlt;
+var radioUnSelectIcon = LineIcons.checkCircle;
 
 var pauseMenuIcon = LineIcons.pause;
-var turnOfOrderingIcon = LineIcons.close;
+var turnOfOrderingIcon = LineIcons.windowClose;
 var pastOrderIcon = LineIcons.history;
 var newOrderIcon = LineIcons.bell;
 var profileIcon = LineIcons.user;
 var changePasswordIcon = LineIcons.eye;
 var logoutIcon = LineIcons.lock;
-var contactUs = LineIcons.mobile;
+var contactUs = LineIcons.mobilePhone;
 var freeCode = LineIcons.code;
 
-var googleIcon = LineIcons.google;
+var googleIcon = LineIcons.googleLogo;
 var facebookLogin = LineIcons.facebook;
 
-var heartO = LineIcons.heart_o;
-var heart = LineIcons.heart;
+var heartO = LineIcons.heart;
+var heart = LineIcons.heartAlt;

@@ -28,7 +28,7 @@ class ContactUsPage extends StatelessWidget {
                     Text(developerSkill, style: contactUsLabelStyle)
                   ])),
           ListTile(
-              leading: Icon(LineIcons.mobile),
+              leading: Icon(LineIcons.contao),
               title: Text(hintEmail, style: contactUsLabelStyle),
               subtitle: Text(developerEmail, style: contactUsDescriptionStyle)),
           ListTile(
@@ -36,7 +36,7 @@ class ContactUsPage extends StatelessWidget {
               title: Text(labelSocialSkype, style: contactUsLabelStyle),
               subtitle: Text(developerSkype, style: contactUsDescriptionStyle)),
           ListTile(
-              leading: Icon(LineIcons.mobile),
+              leading: Icon(LineIcons.mobilePhone),
               trailing: GestureDetector(
                   child: Icon(LineIcons.phone, color: appBarTitleColor),
                   onTap: () => launch("tel://$developerMobile")),
