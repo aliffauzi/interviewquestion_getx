@@ -10,13 +10,14 @@ import 'resource/routes.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarColor: Colors.white,
       statusBarBrightness: Brightness.dark,
       statusBarIconBrightness: Brightness.dark,
       systemNavigationBarIconBrightness: Brightness.dark,
       systemNavigationBarColor: Colors.white));
-  
+
   await getApplicationDocumentsDirectory();
   //String appDocPath = appDocDir.path;
 
@@ -30,13 +31,12 @@ Future<void> main() async {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
-    return GetMaterialApp(
-        debugShowCheckedModeBanner: false,
-        enableLog: true,
-        theme: ThemeData(
+  Widget build(BuildContext context) => GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      enableLog: true,
+      theme: ThemeData(
           /*colorScheme: ColorScheme.light(
                 primary: const Color(0xff263c7a),
                 secondary: const Color(0xfffca311),
@@ -44,12 +44,11 @@ class MyApp extends StatelessWidget{
                 onPrimary: Colors.white,
                 primaryVariant: const Color(0xff00174d),
                 secondaryVariant: const Color(0xffc37400)),*/
-            scaffoldBackgroundColor: backgroundColor,
-            brightness: Brightness.light,
-            accentColor: accentColor,
-            primaryColor: primaryColor,
-            primarySwatch: primarySwatchColor),
-        initialRoute: firstLaunchRoute,
-        getPages: AppPages.pages);
-  }
+          scaffoldBackgroundColor: backgroundColor,
+          brightness: Brightness.light,
+          accentColor: accentColor,
+          primaryColor: primaryColor,
+          primarySwatch: primarySwatchColor),
+      initialRoute: firstLaunchRoute,
+      getPages: AppPages.pages);
 }

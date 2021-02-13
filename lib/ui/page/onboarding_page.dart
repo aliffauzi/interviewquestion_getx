@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:interviewquestion/controller/controller.dart';
@@ -6,7 +8,7 @@ import 'package:interviewquestion/resource/value.dart';
 
 class OnBoardingPage extends GetView<OnBoardingController> {
   Widget build(BuildContext context) => Scaffold(
-          body: Stack(children: [
+          body: Stack(fit: StackFit.expand, children: [
         PageView.builder(
             onPageChanged: controller.selectedPage,
             controller: controller.pageController,
@@ -31,6 +33,16 @@ class OnBoardingPage extends GetView<OnBoardingController> {
                             style: onBoardingMessageStyle))
                   ]));
             }),
+        Align(
+            alignment: Alignment.centerLeft,
+            child: Container(
+                height: MediaQuery.of(context).size.height,
+                width: MediaQuery.of(context).size.width / 2,
+                decoration:
+                    BoxDecoration(color: Colors.grey.shade200.withOpacity(0.5)),
+                child: BackdropFilter(
+                  filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
+                ))),
         Positioned(
             left: 15,
             bottom: 20,

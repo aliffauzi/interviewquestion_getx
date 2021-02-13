@@ -18,7 +18,6 @@ class FreeCodeController extends GetxController {
   }
 
   void _freeCode() {
-    stateStatus.value = StateStatus.SUCCESS;
     _rxFreeCodeList.bindStream(_fireStoreDatabaseRepository.freeCode());
 
     _rxFreeCodeList.listen((data) {
