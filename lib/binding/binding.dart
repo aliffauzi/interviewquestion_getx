@@ -1,0 +1,10 @@
+export 'home_binding.dart';
+export 'login_binding.dart';
+export 'splash_binding.dart';
+export 'sign_up_binding.dart';
+export 'change_password_binding.dart';
+export 'forgot_password_binding.dart';
+export 'onboarding_binding.dart';
+export 'interview_question_binding.dart';
+export 'free_code_binding.dart';
+export 'screenshot_binding.dart';

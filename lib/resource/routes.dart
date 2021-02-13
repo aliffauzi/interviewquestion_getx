@@ -1,0 +1,15 @@
+const String firstLaunchRoute = '/';
+const String onBoardingRoute = '/onBoarding';
+const String homeRoute = '/home';
+const String loginRoute = '/login';
+const String forgotPasswordRoute = '/forgotPassword';
+const String signUpRoute = '/signUp';
+const String notificationRoute = '/notification';
+const String changePasswordRoute = '/changePassword';
+const String interviewQuestionRoute = '/interviewQuestion';
+const String profileEditRoute = 'profileEdit';
+const String contactUsRoute = 'contactUs';
+const String freeCodeRoute = 'freeCode';
+const String freeCodeDetailRoute = 'freeCodeDetail';
+const String technologyDetailRoute = 'technologyDetail';
+const String screenshotRoute = 'screenshot';
